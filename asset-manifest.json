@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/http;//yuvasaiganesh.github.io/MyProfile/static/css/main.19b6e027.css",
+    "main.js": "/http;//yuvasaiganesh.github.io/MyProfile/static/js/main.c163be2b.js",
+    "static/js/787.d4aba7ab.chunk.js": "/http;//yuvasaiganesh.github.io/MyProfile/static/js/787.d4aba7ab.chunk.js",
+    "index.html": "/http;//yuvasaiganesh.github.io/MyProfile/index.html",
+    "main.19b6e027.css.map": "/http;//yuvasaiganesh.github.io/MyProfile/static/css/main.19b6e027.css.map",
+    "main.c163be2b.js.map": "/http;//yuvasaiganesh.github.io/MyProfile/static/js/main.c163be2b.js.map",
+    "787.d4aba7ab.chunk.js.map": "/http;//yuvasaiganesh.github.io/MyProfile/static/js/787.d4aba7ab.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19b6e027.css",
+    "static/js/main.c163be2b.js"
+  ]
+}
