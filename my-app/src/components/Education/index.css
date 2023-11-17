@@ -1,0 +1,30 @@
+
+
+.popupButton{
+    background-color:lightgrey;
+    border-radius: 5px;
+    border: none;
+    color:black;
+    height:20px
+}
+.edudes{
+    font-size:16px;
+    color:black;
+
+    
+}
+.eduTitle{
+    font-size:20px;
+    font-weight: bold;
+    color:black;
+    text-decoration: underline;
+
+}
+li{
+    list-style-type: circle;
+    font-family: "Roboto";
+    padding-top: 5px;
+   
+    
+    
+}

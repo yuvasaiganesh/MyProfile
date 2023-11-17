@@ -1,0 +1,25 @@
+
+
+.project{
+    color:black;
+    font-size:20px;
+}
+
+a{
+    color:yellow;
+    text-decoration: none;
+    padding-top:10px;
+    font-size:18px;
+    text-decoration: underline;
+}
+
+
+.projectSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:50px;
+    width:300px;
+    list-style-type: circle;
+
+}

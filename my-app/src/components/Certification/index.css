@@ -1,0 +1,33 @@
+.popupButton{
+    background-color:lightgrey;
+    border-radius: 5px;
+    border: none;
+    color:black;
+    height:20px
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height:50px;
+    width:200px;
+    list-style-type: circle;
+    font-family: "Roboto";
+    padding-top: 5px;
+    color:black;
+    
+}
+
+.course{
+    font-size:20px;
+    color:black;
+}
+
+.nextLink{
+    color:yellow;
+    text-decoration: none;
+    padding-top:10px;
+    font-size:15px;
+    text-decoration: underline;
+}
