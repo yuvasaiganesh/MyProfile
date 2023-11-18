@@ -5,7 +5,7 @@ import "./index.css"
 const Projects=()=>{
     return(
         <div className="projectsSection">
-            <Popup trigger={<button className="popupButton">Projects</button>}><ul>
+            <Popup trigger={<button className="popupButton">Projects</button>}  position="bottom right"><ul>
                 <li className="projectSection">
                     <p className="project">EmojiGame</p>
                     <a href="https://yvemojigame.ccbp.tech" rel="noreferrer" target="_blank">project link</a>

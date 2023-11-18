@@ -1,25 +1,26 @@
 .headerSection{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     background-color: lightgoldenrodyellow;
     
     height:50vh;
-    width:80vw;
+    width:95vw;
     margin:20px;
     align-self: center;
     border-radius: 10px;
     
     
 }
+
+
 .profile{
-    height:300px;
-    width:280px;
+    height:22vh;
+    width:40vw;
     border-radius: 50%;
 }
-.mail{
-    height:100px
-}
+
 .iconsSection1{
     display: flex;
     align-items: center;
@@ -38,10 +39,187 @@
 .contacts{
     display: flex;
     flex-direction: column;
-    
-    
-   
+     
 }
 .icon{
     height:50px;
+}
+.name{
+    font-size:12px
+}
+.role{
+    font-size:18px
+}
+
+
+@media screen and (min-width:390px){
+
+    .headerSection{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background-color: lightgoldenrodyellow;
+        
+        height:40vh;
+        width:95vw;
+        margin:20px;
+        align-self: center;
+        border-radius: 10px;
+        
+        
+    }
+    
+    
+    .profile{
+        height:15vh;
+        width:40vw;
+        border-radius: 50%;
+    }
+   
+    .iconsSection1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width:230px;
+        
+    }
+    
+    .iconsSection2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width:160px;
+        
+    }
+    .contacts{
+        display: flex;
+        flex-direction: column;
+        
+        
+       
+    }
+    .icon{
+        height:50px;
+    }
+    .name{
+        font-size:15px
+    }
+    .role{
+        font-size:25px
+    }
+
+}
+
+@media screen and (min-width:768px){
+    .profile{
+        height:26vh;
+        width:30vw;
+        border-radius: 50%;
+    }
+
+    .headerSection{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        align-items: center;
+        background-color: lightgoldenrodyellow;
+        
+        height:40vh;
+        width:95vw;
+        margin:20px;
+        align-self: center;
+        border-radius: 10px;
+        
+        
+    }
+    
+    .iconsSection1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width:250px;
+        
+    }
+    
+    .iconsSection2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width:180px;
+        
+    }
+    .contacts{
+        display: flex;
+        flex-direction: column;
+        
+        
+       
+    }
+    .icon{
+        height:70px;
+    }
+
+    .name{
+        font-size:18px
+    }
+    .role{
+        font-size:35px
+    }
+    .mail{
+        font-size:18px
+    }
+}
+
+@media screen and (min-width:1024px){
+
+    .headerSection{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        background-color: lightgoldenrodyellow;
+        
+        height:50vh;
+        width:95vw;
+        margin:20px;
+        align-self: center;
+        border-radius: 10px;
+        
+        
+    }
+    
+    .profile{
+        height:33vh;
+        width:33vw;
+        border-radius: 50%;
+    }
+
+    .name{
+        font-size:22px
+    }
+    .role{
+        font-size:38px
+    }
+    .mail{
+        font-size:22px
+    }
+
+    .iconsSection1{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width:280px;
+        
+    }
+    
+    .iconsSection2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width:200px;
+        
+    }
+
+    
 }
